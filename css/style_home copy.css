@@ -1,0 +1,134 @@
+:root{
+    --cor-menu: #81d8d0
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFF;
+  }
+
+
+.titulo{
+    font-style: italic;
+    color: var(--cor-menu)   ;
+    font-size: 30px;
+    line-height: 1.2; /* Reduzir o espaçamento entre linhas */
+    text-align: center; /* Centralizar o texto horizontalmente */
+    display: flex; /* Permitir a manipulação de elementos internos */
+    justify-content: center; /* Centralizar elementos horizontalmente */
+    align-items: center; /* Centralizar elementos verticalmente */
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  
+  nav {
+    margin-top: -36px;
+    width: 150px;
+    
+    border-radius: 0 20px 20px 0px;
+    background-color: var(--cor-menu);
+
+  }
+
+  
+.img_menu{
+    width: 50px;
+    margin: 20px;
+}
+
+  li {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  li .img_menu:hover {
+    /* Aumentar a imagem */
+    transform: scale(1.2);
+    /* Adicionar opacidade */
+    opacity: 0.4;
+  }
+
+  li .img_menu_ativo {
+    width: 50px;
+    margin: 20px;
+    transform: scale(1.2);
+    opacity: 0.4;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+.paciente_home{
+  flex: 1;
+  margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  
+
+}
+
+  table {
+    width: 100%;
+    border-radius: 100px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: var(--cor-menu);
+    color: white;
+  }
+  
+  tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+
+  .container_data {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 40px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-left: 1750px;
+    
+    
+  }
+  
+ 
+
+  
+  .copyrigth{
+        text-align: center; /* Centralizar o texto horizontalmente */
+        display: flex; /* Permitir a manipulação de elementos internos */
+        justify-content: center; /* Centralizar elementos horizontalmente */
+        align-items: center; /* Centralizar elementos verticalmente */
+        font-weight: bold;
+  }
+  

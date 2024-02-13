@@ -1,0 +1,93 @@
+:root{
+  --cor-menu: #81d8d0
+
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-color: var(--cor-menu);
+  
+}
+
+.erro-login {
+  color: red;
+}
+
+.titulo{
+  margin-top:5%; 
+  font-size: 30px;
+  line-height: 1.2; /* Reduzir o espaçamento entre linhas */
+  text-align: center; /* Centralizar o texto horizontalmente */
+  display: flex; /* Permitir a manipulação de elementos internos */
+  justify-content: center; /* Centralizar elementos horizontalmente */
+  align-items: center; /* Centralizar elementos verticalmente */
+  text-shadow: 2px 2px white;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 70vh;
+}
+.login-box.titulo1{
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.login-box {
+  background-color: #FFF;
+  width: 400px;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h1 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #333;
+  
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.login-box button {
+  background-color: var(--cor-menu);
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.login-box button:hover {
+  background-color: #005997;
+}
